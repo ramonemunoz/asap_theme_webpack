@@ -7,8 +7,8 @@ A gulp boiler plate for a wordpress theme
 ## Features
 
 ## Prerequisite
-* Requires node.js, gulp, and bower
-* Requires local WordPress environment
+* Requires node.js and gulp
+* Requires local WordPress environment (works best with https://github.com/geekster909/asap-wp)
 
 ## Installation
 Clone into Themes directory
@@ -18,12 +18,6 @@ Clone into Themes directory
 Navigate to theme directory and install Node Packages
 
     npm install
-
-Install Bower packages
-
-Navigate to 'assets/styles/scss/' and install bower packages
-
-    bower install
 
 
 ## Configuration

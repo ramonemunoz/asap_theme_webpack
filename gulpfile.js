@@ -64,7 +64,7 @@ gulp.task('vendor-sass', function(){
 
 gulp.task('browserSync', function() {
   browserSync.init({
-      proxy: "local.test.com"
+      proxy: "local.wordpress.com"
   })
 });
 
