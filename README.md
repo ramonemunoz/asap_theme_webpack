@@ -13,7 +13,7 @@ A gulp boiler plate for a wordpress theme
 ## Installation
 Clone into Themes directory
 
-    git clone http://github.com/geekster909/asap_s-gulp.git <project-name>
+    git clone http://github.com/geekster909/asap_s-new.git <project-name>
 
 Navigate to theme directory and install Node Packages
 
