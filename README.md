@@ -14,6 +14,8 @@ A gulp boiler plate for a wordpress theme
 Clone into Themes directory
 
     git clone http://github.com/geekster909/asap_s-new.git <project-name>
+    
+* remove `.git` directory in new theme directory (delete or run command `sudo rm -rf .git`)
 
 Navigate to theme directory and install Node Packages
 
