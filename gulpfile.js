@@ -8,6 +8,7 @@ var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 var notify = require("gulp-notify");
 var plumber = require('gulp-plumber');
+var sourcemaps = require('gulp-sourcemaps');
 
 var notifyGeneric = {
     title: function () {
@@ -40,9 +41,11 @@ gulp.task('compile', ['sass', 'vendor-sass', 'compress', 'vendor-compress', 'ima
 
 gulp.task('sass', function(){
   return gulp.src('assets/styles/scss/style.scss')
+    .pipe(sourcemaps.init())
   	.pipe(plumber({errorHandler: onError}))
     .pipe(sass().on('error', sass.logError)) // Using gulp-sass
     .pipe(autoprefixer())
+    .pipe(sourcemaps.write('./maps'))
     .pipe(gulp.dest('dist/styles'))
     .pipe(notify(notifyGeneric))
     .pipe(browserSync.reload({
