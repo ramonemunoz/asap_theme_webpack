@@ -1,10 +1,17 @@
 # ASAP Wordpress Theme
 
-_DOCUMENTATION IN PROGRESS_
-
 A Webpack boiler plate for a Wordpress theme
 
-Install npm packages
+_DOCUMENTATION IN PROGRESS_
+
+## Features
+
+## Prerequisite
+
+* Requires node.js and gulp
+* Requires local WordPress environment (works best with https://github.com/geekster909/asap-wp)
+
+## Usage
 
 `npm install`
 
