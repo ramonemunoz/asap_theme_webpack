@@ -25,25 +25,25 @@ html {
 	margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $screen-xs) {
 	.container {
 		max-width: 540px;
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm) {
 	.container {
 		max-width: 720px;
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $screen-md) {
 	.container {
 		max-width: 960px;
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $screen-lg) {
 	.container {
 		max-width: 1140px;
 	}
@@ -390,7 +390,7 @@ html {
 	margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $screen-xs) {
 	.col-sm {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -591,7 +591,7 @@ html {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm) {
 	.col-md {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -792,7 +792,7 @@ html {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $screen-md) {
 	.col-lg {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -993,7 +993,7 @@ html {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $screen-lg) {
 	.col-xl {
 		-ms-flex-preferred-size: 0;
 		flex-basis: 0;
@@ -1234,7 +1234,7 @@ html {
 	display: inline-flex !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $screen-xs) {
 	.d-sm-none {
 		display: none !important;
 	}
@@ -1268,7 +1268,7 @@ html {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm) {
 	.d-md-none {
 		display: none !important;
 	}
@@ -1302,7 +1302,7 @@ html {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $screen-md) {
 	.d-lg-none {
 		display: none !important;
 	}
@@ -1336,7 +1336,7 @@ html {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $screen-lg) {
 	.d-xl-none {
 		display: none !important;
 	}
@@ -1566,7 +1566,7 @@ html {
 	align-self: stretch !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $screen-xs) {
 	.flex-sm-row {
 		-webkit-box-orient: horizontal !important;
 		-webkit-box-direction: normal !important;
@@ -1702,7 +1702,7 @@ html {
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm) {
 	.flex-md-row {
 		-webkit-box-orient: horizontal !important;
 		-webkit-box-direction: normal !important;
@@ -1838,7 +1838,7 @@ html {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: $screen-md) {
 	.flex-lg-row {
 		-webkit-box-orient: horizontal !important;
 		-webkit-box-direction: normal !important;
@@ -1974,7 +1974,7 @@ html {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $screen-lg) {
 	.flex-xl-row {
 		-webkit-box-orient: horizontal !important;
 		-webkit-box-direction: normal !important;
